@@ -55,43 +55,6 @@ This project uses a **Monolithic Backend** architecture serving two frontends.
 
 ---
 
-## 📁 Project Structure
-healthcare-nutrition-platform/
-│
-├── backend/ # Laravel Project (API + Web Dashboard)
-│ ├── app/
-│ │ ├── Http/
-│ │ │ ├── Controllers/
-│ │ │ │ ├── API/ # Mobile app endpoints
-│ │ │ │ └── Web/ # Dashboard controllers
-│ │ │ └── Middleware/
-│ │ ├── Models/
-│ │ └── Services/
-│ ├── routes/
-│ │ ├── api.php # Flutter app routes
-│ │ └── web.php # Dashboard routes
-│ ├── database/
-│ │ ├── migrations/
-│ │ └── seeders/
-│ └── .env
-│
-├── mobile/ # Flutter Project (Patient App)
-│ ├── lib/
-│ │ ├── screens/
-│ │ │ ├── auth/
-│ │ │ ├── home/
-│ │ │ ├── nutrition/
-│ │ │ └── appointments/
-│ │ ├── models/
-│ │ ├── services/
-│ │ └── main.dart
-│ └── pubspec.yaml
-│
-└── docs/ # Project Documentation
-└── project-report.pdf
-
-
----
 
 ## ⚙️ Installation & Setup
 
