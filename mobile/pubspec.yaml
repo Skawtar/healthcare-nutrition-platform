@@ -1,0 +1,43 @@
+name: flutter_application_1
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"  # Updated for Flutter 3.x compatibility
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Core packages
+  http: ^1.1.0            # Updated to stable 1.x version
+  intl: ^0.18.1
+  
+  # Image handling
+  cached_network_image: ^3.2.3
+  image_picker: ^1.1.2    # Web-compatible version
+  image_cropper: ^9.1.0   # With null safety
+  image_cropper_for_web: ^6.1.0
+  image_editor: ^1.0.0
+  
+  # UI components
+  syncfusion_flutter_gauges: ^25.2.3
+  fl_chart: ^0.66.0
+  
+  # Storage
+  flutter_secure_storage: ^8.0.0
+  shared_preferences: ^2.2.2
+  
+  # Web utilities
+  universal_html: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - images/default-profile.png

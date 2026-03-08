@@ -1,12 +1,13 @@
-# Ignore backend specific files
-/backend/vendor/
-/backend/node_modules/
-/backend/.env
-/backend/storage/
-/backend/.idea/
-/backend/.vscode/
 
-# OS files
-.DS_Store
-Thumbs.db
+# Flutter
+/mobile/.dart_tool/
+/mobile/.idea/
+/mobile/.vscode/
+/mobile/build/
+/mobile/.flutter-plugins
+/mobile/.flutter-plugins-dependencies
+/mobile/.packages
+/mobile/pubspec.lock
+/mobile/android/.gradle/
+/mobile/ios/Pods/
 
