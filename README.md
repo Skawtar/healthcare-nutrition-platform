@@ -51,17 +51,7 @@ This project uses a **Monolithic Backend** architecture serving two frontends.
 | Authentication | Laravel Sanctum (Mobile) & Sessions (Web) |
 | AI Engine | OpenAI API (GPT-4) |
 
-### System Architecture
-┌─────────────────┐ ┌─────────────────┐ ┌─────────────────┐
-│ │ │ │ │ │
-│ Flutter App │────▶│ │────▶│ MySQL │
-│ (Patients) │ │ Laravel API │ │ Database │
-│ │◀────│ Backend │◀────│ │
-├─────────────────┤ │ │ └─────────────────┘
-│ │ │ │ ┌─────────────────┐
-│ Web Dashboard │────▶│ (Monolithic) │────▶│ OpenAI API │
-│ (Doctors) │ │ │ │ (AI Engine) │
-└─────────────────┘ └─────────────────┘ └─────────────────┘
+
 
 ---
 
