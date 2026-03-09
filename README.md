@@ -217,38 +217,3 @@ All contributors and testers
 
 ⭐ If you find this project helpful, please give it a star!
 
-📋 Project Status
-Project Setup & Architecture
-
-Database Design
-
-Laravel Backend API
-
-Authentication System
-
-Web Dashboard (In Progress)
-
-Flutter Mobile App (In Progress)
-
-AI Integration
-
-Testing & Deployment
-
-
-
-👥 Authors & Supervisors
-Developed by:
-Kawtar Satour
-
-Ahmed Chahi
-
-Supervised by:
-M. Lahcen Moumoun
-
-M. Youness Abouqora
-
-Institution:
-Université Hassan 1er – École Nationale des Sciences Appliquées de Berrechid
-
-📝 License
-This project is created for academic purposes at ENSA Berrechid.
